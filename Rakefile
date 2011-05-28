@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-MiniCRM::Application.load_tasks
+RailsCRM::Application.load_tasks
