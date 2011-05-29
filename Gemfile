@@ -16,7 +16,7 @@ gem 'cancan'
 gem "haml"
 gem "haml-rails"
 gem "sass"
-gem "compass"
+gem "compass", ">= 0.11.1"
 
 # pretty console gems
 gem 'hirb'

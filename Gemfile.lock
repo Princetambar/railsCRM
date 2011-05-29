@@ -260,7 +260,7 @@ DEPENDENCIES
   cancan
   capistrano
   capybara
-  compass
+  compass (>= 0.11.1)
   cover_me (>= 1.0.0.rc6)
   cucumber
   cucumber-rails

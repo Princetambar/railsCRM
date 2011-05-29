@@ -17,7 +17,7 @@ guard 'annotate' do
 end
 
 guard 'sass', :output => 'styles' do
-  watch(/^sass\/(.*)\/)
+  watch(%r{^sass/(.*)})
 end
 
 guard 'compass' do
